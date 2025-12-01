@@ -1,0 +1,80 @@
+# TareasComputoMovil
+Actividad 1
+# 📱 Task Manager Application - Actividad 1
+
+## 📖 Descripción
+Aplicación nativa de Android desarrollada en **Java** implementando el patrón de arquitectura **MVC (Modelo-Vista-Controlador)**. 
+
+El objetivo principal es gestionar una lista de tareas personales permitiendo la persistencia de datos local mediante **Room Database (SQLite)**. La aplicación permite realizar todas las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) con una interfaz gráfica amigable y validaciones de entrada.
+
+### Características Principales
+* **Persistencia Local:** Uso de Room para guardar tareas en el dispositivo.
+* **CRUD Completo:** Agregar nuevas tareas, editar existentes, eliminar y listar.
+* **Fecha Automática:** Asignación automática de la fecha de creación.
+* **Estado de Tarea:** Checkbox interactivo para marcar tareas como completadas o pendientes.
+* **Validaciones:** Impide guardar tareas sin título.
+
+---
+
+## 🛠️ Instalación y Ejecución
+
+### Requisitos previos
+* Android Studio (Versión Iguana, Jellyfish o superior).
+* JDK 11 o superior.
+* Dispositivo Android o Emulador (API 26+ recomendado).
+
+### Pasos
+1.  **Clonar el repositorio:**
+2.  **Abrir en Android Studio:**
+    * Inicia Android Studio.
+    * Selecciona `Open` y busca la carpeta clonada.
+3.  **Sincronizar Gradle:**
+    * Espera a que Android Studio descargue las dependencias. Si no inicia, ve a `File > Sync Project with Gradle Files`.
+4.  **Ejecutar:**
+    * Selecciona tu emulador o dispositivo físico.
+    * Presiona el botón de **Run** (Triángulo verde ▶️).
+
+---
+
+## 🗄️ Estructura de la Base de Datos
+
+La aplicación utiliza una tabla principal llamada `tasks` definida mediante la entidad de Room.
+
+| Columna | Tipo de Dato | Descripción | Propiedades |
+| :--- | :--- | :--- | :--- |
+| `id` | INTEGER | Identificador único | Primary Key, Auto-generate |
+| `task_title` | TEXT | Título de la tarea | Not Null |
+| `task_description`| TEXT | Detalles adicionales | Opcional |
+| `created_at` | TEXT | Fecha de creación | Formato DD/MM/AAAA |
+| `is_completed` | BOOLEAN | Estado de la tarea | Default: false |
+
+---
+
+## 📂 Arquitectura del Proyecto (MVC)
+
+El código está organizado en paquetes para facilitar la mantenibilidad:
+
+* **`model`**: Contiene la lógica de base de datos (`Task.java`, `TaskDao.java`, `AppDatabase.java`).
+* **`view`**: Contiene los adaptadores visuales (`TaskAdapter.java`).
+* **`controller`**: Contiene las actividades que gestionan la lógica de usuario (`MainActivity.java`, `AddEditTaskActivity.java`).
+
+---
+
+## 📸 Capturas de Pantalla
+
+### 1. Lista de Tareas (Pantalla Principal)
+> *Muestra el listado de tareas con sus checkbox.*
+
+![Lista de Tareas](./screenshots/main_screen.png)
+*(Nota: Reemplaza esta línea con la ruta real de tu imagen)*
+
+### 2. Agregar / Editar Tarea
+> *Formulario para ingresar título y descripción.*
+
+![Formulario](./screenshots/form_screen.png)
+*(Nota: Reemplaza esta línea con la ruta real de tu imagen)*
+
+---
+
+**Desarrollado por:** Kevin Machado
+**Materia:** Cómputo Móvil - Actividad 1
