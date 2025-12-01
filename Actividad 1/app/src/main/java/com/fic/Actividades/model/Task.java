@@ -1,4 +1,4 @@
-package com.fic.Actividades; // CAMBIA ESTO POR TU PAQUETE
+package com.fic.Actividades.model; // CAMBIA ESTO POR TU PAQUETE
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

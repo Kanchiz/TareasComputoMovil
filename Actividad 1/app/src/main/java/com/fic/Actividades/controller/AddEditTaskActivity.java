@@ -1,9 +1,14 @@
-package com.fic.Actividades;
+package com.fic.Actividades.controller;
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.fic.Actividades.R;
+import com.fic.Actividades.model.AppDatabase;
+import com.fic.Actividades.model.Task;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;

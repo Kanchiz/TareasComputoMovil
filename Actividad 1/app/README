@@ -66,13 +66,11 @@ El código está organizado en paquetes para facilitar la mantenibilidad:
 > *Muestra el listado de tareas con sus checkbox.*
 
 ![Lista de Tareas](./screenshots/main_screen.png)
-*(Nota: Reemplaza esta línea con la ruta real de tu imagen)*
 
 ### 2. Agregar / Editar Tarea
 > *Formulario para ingresar título y descripción.*
 
 ![Formulario](./screenshots/form_screen.png)
-*(Nota: Reemplaza esta línea con la ruta real de tu imagen)*
 
 ---
 

@@ -1,4 +1,4 @@
-package com.fic.Actividades; // <--- ESTO ES LO QUE ARREGLA EL ERROR
+package com.fic.Actividades.view; // <--- ESTO ES LO QUE ARREGLA EL ERROR
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,10 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.fic.Actividades.R;
+import com.fic.Actividades.model.Task;
+
 import java.util.ArrayList;
 import java.util.List;
 

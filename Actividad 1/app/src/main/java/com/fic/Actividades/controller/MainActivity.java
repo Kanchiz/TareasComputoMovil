@@ -1,4 +1,4 @@
-package com.fic.Actividades;
+package com.fic.Actividades.controller;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.fic.Actividades.R;
+import com.fic.Actividades.model.AppDatabase;
+import com.fic.Actividades.model.Task;
+import com.fic.Actividades.view.TaskAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.List;
 
