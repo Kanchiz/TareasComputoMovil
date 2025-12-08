@@ -12,12 +12,12 @@ El proyecto está desarrollado principalmente con:
 Actualmente el repositorio cuenta con las siguientes actividades:
 
 ### 1️⃣ [Actividad 1](./Actividad%201)
-* **Tema:** Arquitectura MVC (Modelo-Vista-Controlador).
-* **Descripción:** Implementación básica demostrando la separación de lógica y vista.
+* **Tema:** To-Do-App (Lista de Tareas).
+* **Descripción:** Aplicación para gestionar tareas pendientes, implementando la arquitectura MVC para separar la lógica de la interfaz.
 
 ### 2️⃣ [Actividad 2](./Actividad2)
-* **Tema:** (Edita esto: ej. Gestión de Notas / Interfaz de Usuario).
-* **Descripción:** Ejercicio práctico que incluye manejo de recursos gráficos (`main_notes.png`).
+* **Tema:** NoteApp (App de Notas).
+* **Descripción:** Aplicación para la gestión de notas personales, con manejo de recursos gráficos e interfaz de usuario.
 
 ---
 
