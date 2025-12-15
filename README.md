@@ -6,6 +6,7 @@ Bienvenido a este repositorio. Aquí encontrarás la colección de prácticas, t
 El proyecto está desarrollado principalmente con:
 * ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) **Java**
 * ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white) **Android Studio**
+* ![Room](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) **Room Database**
 
 ## 📂 Contenido del Repositorio
 
@@ -19,6 +20,9 @@ Actualmente el repositorio cuenta con las siguientes actividades:
 * **Tema:** NoteApp (App de Notas).
 * **Descripción:** Aplicación para la gestión de notas personales, con manejo de recursos gráficos e interfaz de usuario.
 
+### 3️⃣ [Actividad 3](./Actividad%203)
+* **Tema:** Action History (Sistema de Auditoría).
+* **Descripción:** Evolución del Gestor de Tareas que integra un **Sistema de Auditoría**. Registra automáticamente el historial de acciones del usuario (Insert, Update, Delete) en una tabla independiente para su consulta.
 ---
 
 ## 🚀 ¿Cómo ejecutar estos proyectos?
